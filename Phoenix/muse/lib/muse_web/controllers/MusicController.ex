@@ -4,7 +4,7 @@ defmodule MuseWeb.MusicController do
     # IO.inspect(conn)
     conn
     |> put_status(200)
-    |> json("Welcome to the api !!!")
+    |> json(%{text: "Welcome to the api !!!"})
   end
 
 end
